@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('checkout git repo') {
       steps {
-        git url: "", branch: "main"
+        git url: "https://github.com/Qazaidi123/multi-branch-deployment.git", branch: "main"
     }
   }
 
